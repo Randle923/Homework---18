@@ -1,0 +1,530 @@
+<html>
+ <head>
+  
+  <title>Homework-18</title>
+ </head>
+<!-- Фон  https://kartinkin.net/uploads/posts/2021-04/1617312395_38-p-klassicheskii-fon-dlya-prezentatsii-41.jpg-->
+<!-- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4yKlaizGF4Cr65Fd86joTNSt2KXGtL1EkxsqKcZoWK1H6GtDPvi6JL2vPSobkKW3pHuM&usqp=CAU.jpg -->
+ <style>
+   body 
+   { background-image: url("https://kartinkin.net/uploads/posts/2021-04/1617312395_38-p-klassicheskii-fon-dlya-prezentatsii-41.jpg");
+   background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover; 
+     
+     
+  
+font-family: Fauna One, sans-serif;
+font-size: 16px;
+}
+h1 {
+  font-family: Cinzel, serif;
+  font-size: 46px;
+}
+h2 {
+  font-family: Cinzel, serif;
+  font-size: 32px;
+}
+     /* Шрифт */
+     
+
+
+
+
+   </style>
+
+
+ <body>
+
+<h1 style="text-align:center;"></h1style>  Анкета-резюме </h1> 
+ 
+<!-- Должность, тип занятости и зарплата  -->
+<label> Должность <select> 
+   <option> - </option>
+   <option>QA Manual Engineer</option>
+   <option>QA Automation Engineer</option>
+</select> </label>
+<label> Тип занятости <select>
+   <option> - </option>
+<Option>Полная</Option>
+<Option>Неполная</Option>
+<Option>Удаленная работа</Option>
+</select>
+</label>
+
+<label> Зарплата на руки <input type="salary" placeholder="500$-3000$"></label>
+
+<!-- Содержание анкеты  -->
+<ul type="circle"> 
+   <li> <a href="#Chapter1"> <i>Контактная информация </i></a></li>
+   <li> <a href="#Chapter2"><i> Образование</i></a></li>
+   <li> <a href="#Chapter3"> <i> Опыт работы</i></a></li>
+   <li> <a href="#Chapter4"><i> Профессиональные и другие навыки </i></a> </li>
+   <li> <a href="#Chapter5"><i> Дополнительная  информация </i></a> </li>
+</ul>
+
+<!-- Контактная информация -->
+<h2 id="Chapter1">Контактная информация</h2> 
+<fieldset>
+<Form>
+<label> Ф.И.О. <input type="text" placeholder="Фамилия">
+- <input type="text" placeholder="Имя">
+- <input type="text" placeholder="Отчество"> </label>
+</Form>
+
+<form> <label>Выбирите пол  <input type="radio" value="female" name="gender"> Женский </label>
+   <label> <input type="radio" value="male" name="gender"> Мужской </label> </form>
+
+<form><label>Добавьте свое фото  <input type="file"></label></form>
+
+<!-- Год и Адрес -->
+<form><label>Укажите год рождения  <input type="date"> </label>
+<label> Укажите адрес проживания  <input type="text" placeholder="ул.Пушкина д.Калатушкина"></label> </form>
+
+<!-- Почта и телефон -->
+<label><form>Укажите свою почту  <input type="email" placeholder="@gmail.com"> </label>  
+<label> Укажите свой телефон +380  <input type="number" placeholder="68-923-88-53"></label>
+</form>
+
+<label>Статус гражданства <select> 
+   <option> - </option>
+   <option>Резидент</option>
+   <option>Нерезидент</option>
+</select></label>
+</fieldset>
+
+<!-- Образование -->
+<h2 id="Chapter2">Образование</id></h2> 
+<fieldset>
+
+   <form> <label>Уровень образования <select> 
+      <option> - </option>
+      <option>Высшее</option>
+      <option>Неоконченное высшее</option>
+      <option>Среднее специальное</option>
+      <option>Среднее </option>
+
+   </select></label> 
+
+<label> Учебное заведение  <input type="text" placeholder="Школа ithillel"></label> 
+ <label> Факультет, специальность  <input type="text" placeholder="QA Manual"></label> </form>
+<Form> <label> Город  <input type="text" placeholder="Днепр"></label> 
+ <label> Начало с  <input type="date"> </label>
+<label> по  <input type="date"> </label> </form>
+<form><label> Подробности об образовании <textarea rows="4" cols="100" placeholder="Какие навыки  были преобретены Вами в  ходе  обучения"></textarea></label></form>
+
+
+</fieldset>
+
+<!-- Опыт работы -->
+<h2 id="Chapter3">Опыт работы</id></h2> 
+<fieldset>
+
+<form> <label> Название компании   <input type="text" placeholder="ООО 'Venta Lab'"></label>
+<label> Сфера деятельности компани <textarea rows="1" cols="50" placeholder="Информационная безопасность"></textarea></label></form>
+
+<form> <label> Город   <input type="text"  placeholder=" Днепр "></label></form>
+<form> <label> Должность   <input type="text" placeholder=" qa junior "></label></form>
+<form> <label> Начало с  <input type="date"> </label>
+<label> по  <input type="date"> </label> </form>
+<form> <label> Обязанности на данной  должности <textarea rows="4" cols="100" placeholder="Выполняемый функционал"></textarea></label></form>
+<form> <label> Достижения на данной  должности <textarea rows="4" cols="100" placeholder="Достижения и полученные навыки "></textarea></label></form>
+<!-- Общий опыт работы -->
+<label> Общий жопыт работы <select> 
+   <option> - </option>
+   <option>Без опыта</option>
+   <option> до 1 года</option>
+   <option> от 1 до 2 лет</option>
+   <option> от 2 до 5 лет</option>
+   <option> свыше 5 лет</option>
+</select> </label>
+</fieldset>
+<!-- Профессиональные и другие навыки  -->
+<h2 id="Chapter4">Профессиональные и другие навыки</id></h2> 
+<fieldset>
+
+
+<form><label> 1. Навык работы с  <select> 
+   <option> - </option>
+   <option> API</option>
+      <option> Jira</option>
+      <option> Google Chrome Devtools</option>
+      <option> тестовой документацией</option>
+      <option> English </option>
+   </select> 
+   <label>Степень владения <select> 
+      <option> - </option>
+      <option> Начинающий </option>
+      <option> Средний </option>
+      <option> Выше среднего </option>
+      <option> Продвинутый</option>
+      <option> Свободно </option>
+   </select> </label>
+   <label> Лет опыта <select> 
+      <option> - </option>
+      <option>Без опыта</option>
+      <option> до 1 года</option>
+      <option> от 1 до 2 лет</option>
+      <option> от 2 до 5 лет</option>
+      <option> свыше 5 лет</option>
+   </select> </label>
+   <label> Последний раз использовался <select> 
+      <option> - </option>
+      <option> Не использовался</option>
+      <option> Использую в настоящее время</option>
+      <option> 1 год назад</option>
+      <option> 2 года назад</option>
+      <option> свыше 3 лет назад</option>
+   </select> </label>
+</form>
+<hr>
+
+
+   <form><label> 2. Навык работы с  <select> 
+      <option> - </option>
+      <option> API</option>
+      <option> Jira</option>
+      <option> Google Chrome Devtools</option>
+      <option> тестовой документацией</option>
+      <option> English </option>
+   </select> 
+   <label>Степень владения <select> 
+      <option> - </option>
+      <option> Начинающий </option>
+      <option> Средний </option>
+      <option> Выше среднего </option>
+      <option> Продвинутый</option>
+      <option> Свободно </option>
+   </select> </label>
+   <label> Лет опыта <select> 
+      <option> - </option>
+      <option>Без опыта</option>
+      <option> до 1 года</option>
+      <option> от 1 до 2 лет</option>
+      <option> от 2 до 5 лет</option>
+      <option> свыше 5 лет</option>
+   </select> </label>
+   <label> Последний раз использовался <select> 
+      <option> - </option>
+      <option> Не использовался</option>
+      <option> Использую в настоящее время</option>
+      <option> 1 год назад</option>
+      <option> 2 года назад</option>
+      <option> свыше 3 лет назад</option>
+   </select> </label>
+</form><hr>
+   
+   <form><label> 3. Навык работы с  <select> 
+      <option> - </option>
+      <option> API</option>
+      <option> Jira</option>
+      <option> Google Chrome Devtools</option>
+      <option> тестовой документацией</option>
+      <option> English </option>
+   </select> 
+   <label>Степень владения <select> 
+      <option> - </option>
+      <option> Начинающий </option>
+      <option> Средний </option>
+      <option> Выше среднего </option>
+      <option> Продвинутый</option>
+      <option> Свободно </option>
+   </select> </label>
+   <label> Лет опыта <select> 
+      <option> - </option>
+      <option>Без опыта</option>
+      <option> до 1 года</option>
+      <option> от 1 до 2 лет</option>
+      <option> от 2 до 5 лет</option>
+      <option> свыше 5 лет</option>
+   </select> </label>
+   <label> Последний раз использовался <select> 
+      <option> - </option>
+      <option> Не использовался</option>
+      <option> Использую в настоящее время</option>
+      <option> 1 год назад</option>
+      <option> 2 года назад</option>
+      <option> свыше 3 лет назад</option>
+   </select> </label>
+</form><hr>
+
+   <form><label> 4. Навык работы с  <select> 
+      <option> - </option>
+      <option> API</option>
+      <option> Jira</option>
+      <option> Google Chrome Devtools</option>
+      <option> тестовой документацией</option>
+      <option> English </option>
+   </select> 
+   <label>Степень владения <select> 
+      <option> - </option>
+      <option> Начинающий </option>
+      <option> Средний </option>
+      <option> Выше среднего </option>
+      <option> Продвинутый</option>
+      <option> Свободно </option>
+   </select> </label>
+   <label> Лет опыта <select> 
+      <option> - </option>
+      <option>Без опыта</option>
+      <option> до 1 года</option>
+      <option> от 1 до 2 лет</option>
+      <option> от 2 до 5 лет</option>
+      <option> свыше 5 лет</option>
+   </select> </label>
+   <label> Последний раз использовался <select> 
+      <option> - </option>
+      <option> Не использовался</option>
+      <option> Использую в настоящее время</option>
+      <option> 1 год назад</option>
+      <option> 2 года назад</option>
+      <option> свыше 3 лет назад</option>
+   </select> </label>
+</form><hr>
+   
+   <form><label> 5. Навык работы с  <select> 
+      <option> - </option>
+      <option> API</option>
+      <option> Jira</option>
+      <option> Google Chrome Devtools</option>
+      <option> тестовой документацией</option>
+      <option> English </option>
+   </select> 
+   <label>Степень владения <select> 
+      <option> - </option>
+      <option> Начинающий </option>
+      <option> Средний </option>
+      <option> Выше среднего </option>
+      <option> Продвинутый</option>
+      <option> Свободно </option>
+   </select> </label>
+   <label> Лет опыта <select> 
+      <option> - </option>
+      <option>Без опыта</option>
+      <option> до 1 года</option>
+      <option> от 1 до 2 лет</option>
+      <option> от 2 до 5 лет</option>
+      <option> свыше 5 лет</option>
+   </select> </label>
+   <label> Последний раз использовался <select> 
+      <option> - </option>
+      <option> Не использовался</option>
+      <option> Использую в настоящее время</option>
+      <option> 1 год назад</option>
+      <option> 2 года назад</option>
+      <option> свыше 3 лет назад</option>
+   </select> </label>
+</form><hr>
+
+<form><label> 6. Навык работы с   <input type="text" placeholder="Дополнительный навык"></label> 
+
+   <label>Степень владения <select> 
+      <option> - </option>
+      <option> Начинающий </option>
+   <option> Средний </option>
+   <option> Выше среднего </option>
+   <option> Продвинутый</option>
+   <option> Свободно </option>
+</select> </label>
+<label> Лет опыта <select> 
+   <option> - </option>
+   <option>Без опыта</option>
+   <option> до 1 года</option>
+   <option> от 1 до 2 лет</option>
+   <option> от 2 до 5 лет</option>
+   <option> свыше 5 лет</option>
+</select> </label> 
+<label> Последний раз использовался <select> 
+   <option> - </option>
+   <option> Не использовался</option>
+   <option> Использую в настоящее время</option>
+   <option> 1 год назад</option>
+   <option> 2 года назад</option>
+   <option> свыше 3 лет назад</option>
+</select> </label>
+</form><hr>
+
+<form><label> 7. Навык работы с   <input type="text" placeholder="Дополнительный навык"></label> 
+
+   <label>Степень владения <select> 
+      <option> - </option>
+      <option> Начинающий </option>
+      <option> Средний </option>
+      <option> Выше среднего </option>
+      <option> Продвинутый</option>
+      <option> Свободно </option>
+   </select> </label>
+   <label> Лет опыта <select> 
+      <option> - </option>
+      <option>Без опыта</option>
+      <option> до 1 года</option>
+      <option> от 1 до 2 лет</option>
+      <option> от 2 до 5 лет</option>
+      <option> свыше 5 лет</option>
+   </select> </label> 
+   <label> Последний раз использовался <select> 
+      <option> - </option>
+      <option> Не использовался</option>
+      <option> Использую в настоящее время</option>
+      <option> 1 год назад</option>
+      <option> 2 года назад</option>
+      <option> свыше 3 лет назад</option>
+   </select> </label>
+   </form><hr>
+
+   <form><label> 8. Навык работы с   <input type="text" placeholder="Дополнительный навык"></label> 
+
+      <label> Степень владения <select> 
+         <option> - </option>
+         <option> Начинающий </option>
+         <option> Средний </option>
+         <option> Выше среднего </option>
+         <option> Продвинутый</option>
+         <option> Свободно </option>
+      </select> </label>
+      <label> Лет опыта <select> 
+         <option> - </option>
+         <option>Без опыта</option>
+         <option> до 1 года</option>
+         <option> от 1 до 2 лет</option>
+         <option> от 2 до 5 лет</option>
+         <option> свыше 5 лет</option>
+      </select> </label> 
+      <label> Последний раз использовался <select> 
+         <option> - </option>
+         <option> Не использовался</option>
+         <option> Использую в настоящее время</option>
+         <option> 1 год назад</option>
+         <option> 2 года назад</option>
+         <option> свыше 3 лет назад</option>
+      </select> </label>
+      </form><hr>
+</fieldset>
+<!-- Дополнительная  информация -->
+<h2 id="Chapter5">Дополнительная  информация</h2> 
+<fieldset>
+   <form><label> Наличие  инвалидности <select> 
+      <option> - </option>
+      <option> Есть </option>
+      <option> Отсутствует </option>
+   </select> </label>
+   
+   <label> Наличие  автотранспорта <select> 
+      <option> - </option>
+      <option> Есть </option>
+      <option> Отсутствует </option>
+   </select> </label>
+
+   <label> Семейное положение <select> 
+      <option> - </option>
+      <option> Женат </option>
+      <option> Холост </option>
+      <option> Не замужем </option>
+      <option> Замужем </option>
+      <option>  Удерживаюсь от ответа </option>
+   </select> </label>
+   <label> Наличие  детей <select> 
+      <option> - </option>
+      <option> Есть </option>
+      <option> Отсутствуют </option>
+   </select> </label>
+   </form>
+  <form> <label> Возможность коммандировок <select> 
+   <option> - </option>
+   <option> Есть возможность </option>
+      <option> Нет возможности </option>
+   </select> </label> 
+   <form> <label> Характер <select> 
+      <option> - </option>
+      <option> Флегматик </option>
+      <option> Холерик </option>
+      <option> Сангвиник </option>
+      <option> Меланхолик </option>
+
+   </select> </label> 
+   <form> <label> Никотинозависимость <select> 
+      <option> - </option>
+      <option> Есть </option>
+      <option> Отсутствует </option>
+   </select> </label> </form>
+<!-- Язык -->
+
+<form>       <h3>  Знание языков:</h3></form> 
+<form> <label> <input type ="checkbox"> Английский; </label>
+   <label>Степень владения <select> 
+      <option> - </option>
+      <option> Начинающий </option>
+      <option> Средний </option>
+      <option> Выше среднего </option>
+      <option> Продвинутый</option>
+      <option> Свободно </option>
+   </select> </label>
+</form> 
+
+
+   <form>  <label>  <input type ="checkbox"> Русский; </label>
+      <label>Степень владения <select> 
+         <option> - </option>
+         <option> Начинающий </option>
+         <option> Средний </option>
+         <option> Выше среднего </option>
+         <option> Продвинутый</option>
+         <option> Свободно </option>
+      </select> </label>
+   </form>
+   <form>  <label>   <input type ="checkbox"> Украинский; </label>
+      <label>Степень владения <select> 
+         <option> - </option>
+         <option> Начинающий </option>
+         <option> Средний </option>
+         <option> Выше среднего </option>
+         <option> Продвинутый</option>
+         <option> Свободно </option>
+      </select> </label>
+   </form>
+   <form>   <label>    <input type ="checkbox"> Испанский; </label>
+      <label>Степень владения <select> 
+         <option> - </option>
+         <option> Начинающий </option>
+         <option> Средний </option>
+         <option> Выше среднего </option>
+         <option> Продвинутый</option>
+         <option> Свободно </option>
+      </select> </label>
+    </form>
+   <form>   <label>   <input type ="checkbox"> Другие: </label> 
+      <input type="text" placeholder="Польский">
+      <label>Степень владения <select> 
+         <option> - </option>
+         <option> Начинающий </option>
+         <option> Средний </option>
+         <option> Выше среднего </option>
+         <option> Продвинутый</option>
+         <option> Свободно </option>
+      </select> </label>
+     
+      <input type="text" placeholder="Немой">
+      <label>Степень владения <select> 
+         <option> - </option>
+         <option> Начинающий </option>
+         <option> Средний </option>
+         <option> Выше среднего </option>
+         <option> Продвинутый</option>
+         <option> Свободно </option>
+      </select> </label>
+   </form>
+   <form>
+      <label> Дополнительная информация о себе <textarea rows="4" cols="100" placeholder="О мотивации, смысле жизни и о вечности "></textarea></label>
+   </form>
+   <form><label>Добавьте рекомендационное письмо   <input type="file"></label></form>
+</fieldset>
+<br>
+
+<br>
+<button 
+ onclick="document.location='https:/www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstle'" style="text-align:center;"> <i>Завершение и отправка резюме</i></button> 
+ <br>
+ <br>
+ <br>
+ </body>
+</html>
